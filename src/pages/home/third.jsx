@@ -1,6 +1,6 @@
 import React from 'react';
 import './third.css';
-import img3 from '../../images/third.png';
+import img3 from '../../images/third.webp';
 import imgr from '../../images/cuser.png';
 const Third = () => {
   return (

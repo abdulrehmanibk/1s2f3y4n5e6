@@ -1,7 +1,7 @@
 import React from 'react';
 import './fourth.css';
 // import img4 from '../../images/hero.jpg';
-import img4 from '../../images/footer1.png';
+import img4 from '../../images/footer1.webp';
 import img41 from '../../images/mail.png';
 import img42 from '../../images/phone.png';
 import img43 from '../../images/web-link.png';
