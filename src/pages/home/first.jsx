@@ -3,6 +3,7 @@ import './first.css';
 import img1 from '../../images/newonline.png'
 import img2 from '../../image/home1.png'
 import img3 from '../../image/home2.png'
+import img4 from '../../image/home2.webp'
 
 const First = () => {
   // const [image, setImage] = useState(img3)
@@ -24,7 +25,7 @@ const First = () => {
         <a href="#services"><button>see services</button></a>
         </div>
         <div className="fright">
-          <img src={img3} alt="" />
+          <img src={img4} alt="" />
         </div>
       </div>
         
