@@ -94,6 +94,37 @@
 }
 
 
+.fourth_right, .fourth_left{
+    animation: animate5  ease;
+    animation-timeline: view();
+}
+@keyframes animate5{
+    from{
+        opacity: 0.5;
+        transform: translateY(50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+}
+.f4heading{
+    animation: animate6  ease;
+    animation-timeline: view();
+}
+@keyframes animate6{
+    from{
+        opacity: 0.5;
+        transform: translateX(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+
 @media (min-width: 1166px) {
     .fourth_left{
         width: 35%;

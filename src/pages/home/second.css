@@ -6,7 +6,6 @@
 }
 .scards{
     width: 95%;
-    /* height: 90%; */
     /* background-color: #46dccf; */
     margin-left: 2.5%;
     /* border: 0.1rem solid green; */
@@ -18,7 +17,6 @@
 }
 .card{
     width: 22rem;
-    /* height: 15rem; */
     /* border: 0.1rem solid black;  */
     text-align: center;
     background-color: #50c8ffbf;
@@ -85,6 +83,25 @@ cursor{
     -webkit-text-fill-color: transparent;
 
 }
+
+
+
+.card, .sheading{
+    animation: animate0  ease;
+    animation-timeline: view();
+}
+@keyframes animate0{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+
 /* @media (min-width: 1150px) {
     
 } */
@@ -95,5 +112,11 @@ cursor{
      .card{
         width: 90%;
      }
+     .card h3{
+        font-size: 1.5rem;   
+    }
+    .card p{
+        font-size: 1.2rem;
+    }
  
  }

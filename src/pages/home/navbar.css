@@ -11,7 +11,7 @@
     width: 100%;
     height: 3.5rem;
     /* background-color: #1b17523d; */
-    background: linear-gradient(to left, #46dcd036,#e45fff35, #e817363c);
+    background: linear-gradient(to left, #46dcd080,#e45fff80);
     backdrop-filter: blur(15px);
     z-index: 1;
     display: flex;

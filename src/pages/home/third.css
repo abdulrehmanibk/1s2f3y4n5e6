@@ -125,6 +125,58 @@ width: 100%;
     height: 10px;
 }
 
+
+
+.tleft{
+    animation: animate3  ease;
+    animation-timeline: view();
+}
+@keyframes animate3{
+    from{
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+
+
+    }
+}
+.tright{
+    animation: animate4 2s;
+    animation-timeline: view();
+}
+@keyframes animate4{
+    from{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(-10%);
+
+
+    }
+}
+
+
+.theading{
+    animation: animate6  ease;
+    animation-timeline: view();
+}
+@keyframes animate6{
+    from{
+        opacity: 0.5;
+        transform: translateX(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
 @media (min-width: 1166px) {
     .tleft{
         width: 40%;

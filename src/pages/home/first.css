@@ -70,6 +70,7 @@ html{
     height: auto;
     backdrop-filter: blur(10px);
     background-color: #1b17523d;
+    
    }
    .fright{
     /* border: 0.1rem solid black; */
@@ -77,6 +78,38 @@ html{
     align-items: center;
     justify-content: center;
    }
+}
+.fleft{
+    animation: animate1 2s;
+}
+@keyframes animate1{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0 ;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.fright{
+    animation: animate2 2s;
+}
+@keyframes animate2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0 ;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
 @media (min-width: 768px) and (max-width: 1165px) {
 
