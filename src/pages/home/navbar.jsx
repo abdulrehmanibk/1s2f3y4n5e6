@@ -1,10 +1,10 @@
 import React from 'react';
 import './navbar.css';
-import s1img from '../../image/service.png'
-import c1img from '../../image/message.png'
-import t1img from '../../image/tick.png'
-import h1img from '../../image/home.png'
-// import l1img from '../../image/ENYFS.png'
+import s1img from '../../image/service.webp';
+import c1img from '../../image/message.webp';
+import t1img from '../../image/tick.webp';
+import h1img from '../../image/home.webp';
+import l1img from '../../image/logo.png'
 const Navbar = () => {
   return (
     <>

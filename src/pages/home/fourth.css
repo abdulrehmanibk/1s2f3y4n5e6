@@ -115,7 +115,7 @@
 @keyframes animate6{
     from{
         opacity: 0.5;
-        transform: translateX(-50%);
+        transform: translateX(-10%);
     }
     to{
         opacity: 1;

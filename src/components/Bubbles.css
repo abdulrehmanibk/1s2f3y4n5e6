@@ -25,7 +25,7 @@
     box-shadow: 0 0 0 10px #ff2d7544,
     0 0 50px #ff2d75,
     0 0 100px #ff2d75;
-    animation: animate1 var(--i) linear infinite;
+    animation: animate7 var(--i) linear infinite;
 
 }
 @keyframes animate{
@@ -38,7 +38,7 @@
         opacity: 1;
     }
 }
-@keyframes animate1{
+@keyframes animate7{
     0%{
         transform: translateY(-10vh) scale(0.2);
         opacity: 0;
