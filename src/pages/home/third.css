@@ -39,7 +39,7 @@
     /* height: 35rem; */
     cursor:context-menu;
     backdrop-filter: blur(10px);
-    background-color: #1b175258;
+    background-color: #1b175283;
     border-radius: 5rem;
     /* position: relative; */
 }
@@ -133,14 +133,10 @@ width: 100%;
 }
 @keyframes animate3{
     from{
-        opacity: 0;
         transform: translateX(-10%);
     }
     to{
-        opacity: 1;
         transform: translateX(0%);
-
-
     }
 }
 .tright{

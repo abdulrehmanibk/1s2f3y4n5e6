@@ -6,7 +6,6 @@
 }
 .scards{
     width: 95%;
-    /* background-color: #46dccf; */
     margin-left: 2.5%;
     /* border: 0.1rem solid green; */
     display: flex;
@@ -19,27 +18,27 @@
     width: 22rem;
     /* border: 0.1rem solid black;  */
     text-align: center;
-    background-color: #50c8ffbf;
-    box-shadow: .1rem .1rem 1rem .1rem #50c8ff; 
+    background-color: #00aeffbf;
+    box-shadow: .1rem .1rem 1rem .01rem #50c8ff; 
     transition: .7s;
     margin-bottom: 1rem;    
     padding: 1rem;
 }
 .card:nth-child(1){
-    background-color: #ff2d75;
-    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
+    background-color: #e81736;
+    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
 }
 .card:nth-child(3){
-    background-color: #ff2d75;
-    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
+    background-color: #e81736;
+    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
 }
 .card:nth-child(6){
-    background-color: #ff2d75;
-    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
+    background-color: #e81736;
+    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
 }
 .card:nth-child(8){
-    background-color: #ff2d75;
-    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
+    background-color: #e81736;
+    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
 }
 .card h3{
     font-size: 2rem;
@@ -58,13 +57,10 @@
 
 }
 .card:hover{
- 
 transform: scale(1.05);
 cursor: pointer;
 }
-cursor{
-    color: #50c8ff;
-}
+
 .sheading{
     width: 95%;
     margin-left: 2.5%;
@@ -86,20 +82,20 @@ cursor{
 
 
 
-.card, .sheading{
+/* .card, .sheading{
     animation: animate0;
     animation-timeline: view();
 }
 @keyframes animate0{
     from{
-        opacity: 0.5;
+        opacity: 0.9;
         transform: translateX(-10%);
     }
     to{
         opacity: 1;
         transform: translateX(0%);
     }
-}
+} */
 /* @keyframes animate0{
     0%{
         opacity: 0;

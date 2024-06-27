@@ -59,27 +59,26 @@
 .contact{
     width: 100%;
     display: flex;
-    /* border: 0.1rem solid black; */
-    background: linear-gradient(to right, #46dccf,#e45fff, #e81736);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    /* border: 0.1rem solid black; */    
 }
 .contact img{
     width: 2rem;
 }
 .contact p{
     font-size: 1.2rem;
-    color: darkgray;
     letter-spacing: 1.5px;
     padding-left: 2rem;
     width: 100%;
     text-align: left;
+    background: linear-gradient(to right, #46dccf,#e45fff, #e81736);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 .fourth_right h4{
     color: gray;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 600;
     padding: .2rem;
     text-align: start;
     padding-left: 4rem;
@@ -163,9 +162,16 @@
     }
  
  }
- @media (max-width: 315px) {
+ @media (max-width: 320px) {
     .contact p{
         font-size: .8rem;
+    }
+ 
+ }
+ @media (max-width: 300px) {
+    .contact p{
+        font-size: .7rem;
+        font-weight: 900;
     }
  
  }
