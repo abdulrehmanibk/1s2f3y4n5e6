@@ -44,7 +44,7 @@
     align-items: center;
     justify-content: flex-start;
     column-gap: .5rem;
-
+    padding: .2rem;
 }
 .logo img{
     /* border: 0.1rem solid; */
@@ -52,13 +52,10 @@
 }
 .logo p{
     /* border: 0.1rem solid; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 10px;
     color: #46dccf;
-    /* background: linear-gradient(to right, #4fc3dc,#e45fff, #ff2d75);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
  @media (max-width: 768px) {
     .nav_container li{
@@ -69,11 +66,12 @@
     .logo{
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        padding: .5rem;
     }
     .logo p{
         font-size: 1rem;
         letter-spacing: 5px;
+        
     }
  }
 
