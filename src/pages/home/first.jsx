@@ -25,7 +25,11 @@ const First = () => {
         <a href="#services"><button>see services</button></a>
         </div>
         <div className="fright">
+          <div className="fallimages">
           <img src={img4} alt="" />
+          {/* <img src={img4} alt="" />
+          <img src={img4} alt="" /> */}
+          </div>
         </div>
       </div>
         

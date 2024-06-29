@@ -6,8 +6,9 @@
 }
 .ft_container{
     width: 95%;
-    height: 5rem;
-    background: linear-gradient(225deg,#F7D944,#EA9A51);
+    height: 2rem;
+    /* background: linear-gradient(225deg,#F7D944,#EA9A51); */
+    background: #ffffffbe;
     margin-left: 2.5%;
     /* margin-top: 5rem; */
     text-align: center;
@@ -17,7 +18,7 @@
     /* position: fixed; */
 }
 .ft_container > p{
-    line-height: 5rem;
+    line-height: 2;
     /* background-color: #D5358B; */
     color: #19164F;
     letter-spacing: 2px;

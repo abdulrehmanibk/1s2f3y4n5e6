@@ -18,27 +18,27 @@
     width: 22rem;
     /* border: 0.1rem solid black;  */
     text-align: center;
-    background-color: #00aeffbf;
-    box-shadow: .1rem .1rem 1rem .01rem #50c8ff; 
+    background-color: #4fc3dc;
+    box-shadow: .1rem .1rem 1rem .01rem #4fc2dc82; 
     transition: .7s;
     margin-bottom: 1rem;    
     padding: 1rem;
 }
 .card:nth-child(1){
-    background-color: #e81736;
-    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
+    background-color: #ff2d75;
+    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
 }
 .card:nth-child(3){
-    background-color: #e81736;
-    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
+    background-color: #ff2d75;
+    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
 }
 .card:nth-child(6){
-    background-color: #e81736;
-    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
+    background-color: #ff2d75;
+    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
 }
 .card:nth-child(8){
-    background-color: #e81736;
-    box-shadow: .1rem .1rem 1rem .1rem #e81736; 
+    background-color: #ff2d75;
+    box-shadow: .1rem .1rem 1rem .1rem #ff2d75; 
 }
 .card h3{
     font-size: 2rem;
@@ -56,6 +56,18 @@
     padding: .2rem;
 
 }
+.card:nth-child(2) p,.card:nth-child(2) h3{
+    color:#1b1752e9;
+}
+.card:nth-child(4) p,.card:nth-child(4) h3{
+    color:#1b1752e9;
+}
+.card:nth-child(5) p,.card:nth-child(5) h3{
+    color:#1b1752e9;
+}
+.card:nth-child(7) p,.card:nth-child(7) h3{
+    color:#1b1752e9;
+}
 .card:hover{
 transform: scale(1.05);
 cursor: pointer;
@@ -66,15 +78,15 @@ cursor: pointer;
     margin-left: 2.5%;
     font-size: 2rem;
     color: darkgray;
-    background-color: #1b17527a;
+    background-color: #1b1752e9;
     letter-spacing: 1.5px;
     font-weight: 300;
     margin-bottom: 1.5rem;
     text-align: center;
     /* border: 0.15rem solid ; */
-    /* border-image: linear-gradient(to left, #5ffff2d8,#e45fffd4, #e81736d8)1; */
+    /* border-image: linear-gradient(to left, #5ffff2d8,#e45fffd4, #ff2d75d8)1; */
     backdrop-filter: blur(10px);
-    background: linear-gradient(to left, #46dccf,#e45fff, #e81736);
+    background: linear-gradient(to left, #46dccf,#e45fff, #ff2d75);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
