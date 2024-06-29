@@ -31,7 +31,7 @@ const Second = () => {
             <p>Robust interface solutions.</p>
             </div>
             <div className="card">
-            <h3>Web Scraping data tracker</h3>
+            <h3>Web Scraping Data Tracker</h3>
             <p>Data extraction and Automation.</p>
             </div>
             <div className="card">
