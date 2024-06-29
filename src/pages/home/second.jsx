@@ -27,7 +27,7 @@ const Second = () => {
             <p>Professional web development and designing.</p>
             </div>
             <div className="card">
-            <h3>API Integration Development</h3>
+            <h3>API Integration & Development</h3>
             <p>Robust interface solutions.</p>
             </div>
             <div className="card">
