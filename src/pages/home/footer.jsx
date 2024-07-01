@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className="ft_container">
-        <p>all rights are reserved</p>
+        <p>th<span>E</span> seve<span>N</span> sk<span>Y</span> o<span>F</span> soft<span>S</span></p>
     </div>
     </>
   );

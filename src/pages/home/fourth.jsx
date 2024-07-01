@@ -9,7 +9,7 @@ import img43 from '../../images/web-link.png';
 const Fourth = () => {
   return (
     <>
-    <div className='f4heading'>How We Can Help</div>
+    <div className='f4heading'>Get In Touch</div>
     <div className="fourth_container">
     <div className="fourth_left">
         <img src={img4} alt="" />
@@ -24,7 +24,7 @@ const Fourth = () => {
             <p>+92 314 5443143</p>
         </div>
         <h4>Associated with</h4>
-        <h2>E-Tree Solution</h2>
+        <h2>E-Tree Solutions</h2>
         <div className="contact">
             <img src={img41} alt="" />
             <p>info@etreesolutions.com</p>

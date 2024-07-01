@@ -6,9 +6,9 @@
 }
 .ft_container{
     width: 95%;
-    height: 2rem;
+    /* height: 2rem; */
     /* background: linear-gradient(225deg,#F7D944,#EA9A51); */
-    background: #ffffffbe;
+    background: #ffff;
     margin-left: 2.5%;
     /* margin-top: 5rem; */
     text-align: center;
@@ -17,9 +17,29 @@
     transform: translateY(100%);
     /* position: fixed; */
 }
-.ft_container > p{
+.ft_container p{
     line-height: 2;
     /* background-color: #D5358B; */
     color: #19164F;
     letter-spacing: 2px;
+}
+.ft_container p span{
+    color: #4fc3dc;
+    font-weight: 600;
+}
+.ft_container{
+    animation: animate_footer 2.5s;
+}
+@keyframes animate_footer{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0 ;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }

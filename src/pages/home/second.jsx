@@ -4,7 +4,7 @@ import './second.css';
 const Second = () => {
   return (
     <>
-    <div className='sheading'>Pick A Strength</div>
+    <div className='sheading'>How we can help</div>
     <div className="scards">
             <div className="card">
             <h3>Custom Tech Solutions</h3>

@@ -91,21 +91,37 @@
 }
 
 
-.fourth_right, .fourth_left{
-    animation: animate5  ease;
-    animation-timeline: view();
+.fourth_container,.f4heading{
+    animation: animate_4th 2.5s;
 }
-@keyframes animate5{
-    from{
-        opacity: 0.5;
-        transform: translateY(50%);
+.fourth_left, .tleft img{
+    animation: bounce_first 3s infinite;
+}
+@keyframes animate_4th{
+    0%{
+        opacity: 0;
     }
-    to{
+    50%{
+        opacity:0 ;
+        transform: translateX(-100%);
+    }
+    100%{
         opacity: 1;
-        transform: translateY(-10%);
+        transform: translateX(0%);
     }
 }
-.f4heading{
+@keyframes bounce_first{
+    0%{
+        height: 100%;
+    }
+    50%{
+        transform: translateY(5%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+/* .f4heading{
     animation: animate6  ease;
     animation-timeline: view();
 }
@@ -118,7 +134,7 @@
         opacity: 1;
         transform: translateX(0%);
     }
-}
+} */
 
 
 

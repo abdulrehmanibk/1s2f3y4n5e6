@@ -22,7 +22,7 @@ const First = () => {
         <p><span>You know what? </span>We turn your ideas into global online identities
           <br />
             <span>Discover ! </span> how we create digital solutions that resonate worldwide.</p>
-        <a href="#services"><button>see services</button></a>
+        <a href="#services"><button>Our Services</button></a>
         </div>
         <div className="fright">
           <div className="fallimages">
