@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import imgnav from '../../image/erbg.webp';
+import imgnav from '../../image/e21bg.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useRef } from 'react';
 
@@ -14,7 +14,7 @@ const Navbar = () => {
       if (scrollTop > lastScrollTop.current) {
         // Scroll down
         if (navbarRef.current) {
-          navbarRef.current.style.top = '-3rem';
+          navbarRef.current.style.top = '-10rem';
         }
       } else {
         // Scroll up
@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="nav_container"  ref={navbarRef} style={{ position: 'fixed', top: '0', transition: 'top 0.3s' }}>
+    <nav className="nav_container" id="navbar" ref={navbarRef} style={{ top: '0', transition: 'top 0.3s' }}>
       <div className="logo"><img src={imgnav} alt="" />
       <p>enyfs</p>
       </div>
