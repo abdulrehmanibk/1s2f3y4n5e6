@@ -61,6 +61,7 @@ html{
     background: linear-gradient(to left, #5ffff270,#e45fff78, #e817367c) ;
     color: lightgray;
     cursor: pointer;
+    border-radius: 1rem;
 }
 
 @media (min-width: 1166px) {

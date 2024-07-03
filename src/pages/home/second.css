@@ -23,6 +23,7 @@
     transition: .7s;
     margin-bottom: 1rem;    
     padding: 1rem;
+    border-radius: 1rem;
 }
 .card:nth-child(1){
     background-color: #ff2d75;
@@ -44,15 +45,15 @@
     font-size: 2rem;
     padding: .5rem;
     color:  lightgray;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     
 }
 .card p{
     font-size: 1.7rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
     color:lightgrey;
     /* font-weight: 600; */
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: .2rem;
 
 }
@@ -142,6 +143,9 @@ cursor: pointer;
     }
     .card p{
         font-size: 1.2rem;
+    }
+    .sheading{
+        font-size: 1.5rem;
     }
  
  }

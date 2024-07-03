@@ -24,7 +24,7 @@
 .direct_up{
     border-bottom: 0.1rem double #4fc3dc;
     width: auto;
-    background: linear-gradient(to left, #4fc3dc,#e45fff, #ff2d75);
+    background: linear-gradient(to right, #4fc3dc,#e45fff, #ff2d75);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -83,7 +83,7 @@
     color: #4fc3dc;
     font-size: 1.2rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 .fourth_right input{
     display: block;
@@ -92,7 +92,7 @@
     height: 2.5rem;
     font-size: 1.2rem;
     padding: .5rem;
-    letter-spacing: 2px;    
+    letter-spacing: 1px;    
     background-color: transparent;
     border:0.15rem solid  #4fc3dc;
     margin-bottom: 1rem;
@@ -114,7 +114,7 @@
     height: 7rem;
     font-size: 1.2rem;
     padding: .5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background-color: transparent;
     border:0.15rem solid  #4fc3dc;
     margin-bottom: 1rem;
@@ -260,6 +260,12 @@
     }
     .fourth_right h2{
         font-size: 1.2rem;
+    }
+    .fourth_right input,.fourth_right textarea,.fourth_right label{
+        font-size: .9rem;
+    }
+    .f4heading{
+        font-size: 1.5rem;
     }
  
  }

@@ -11,7 +11,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     /* color: darkgray; */
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     font-weight: 600;
     background: linear-gradient(to right, #4fc3dc,#e45fff, #ff2d75);
     -webkit-background-clip: text;
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 0.2rem solid;
+    border-bottom: 0.15rem solid;
     border-image: linear-gradient(to left, #5ffff2d8,#e45fffd4, #ff2d75d8)1;
     backdrop-filter: blur(10px);
     margin-top: 2rem; 
@@ -36,7 +36,7 @@
     width: 36rem;
     backdrop-filter: blur(10px);
     background-color: #171347;
-    border-radius: 5rem;
+    border-radius: 4rem;
     overflow: hidden;
     text-align: center;
 
@@ -64,6 +64,7 @@
     object-fit: cover;
     /* background-color: rgba(255, 255, 255, 0.033); */
     transition: 2s ease;
+    text-align: center;
 
 }
 
@@ -126,8 +127,8 @@ width: 100%;
 .review > p{
     font-size: 1.5rem;
     padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: white;
     letter-spacing: 1px;
     /* border: 0.1rem solid black; */
@@ -238,15 +239,19 @@ width: 100%;
         width: 50%;
     }
     .review > p{
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
     .rimg p::first-line{
         font-size: 1.2rem;
     }
+    .theading{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
  }
  @media (max-width: 400px) {
     .review > p{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .rimg p::first-line{
         font-size: 1.1rem;
