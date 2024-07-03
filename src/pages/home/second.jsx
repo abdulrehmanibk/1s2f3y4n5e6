@@ -14,14 +14,17 @@ const Second = () => {
             <h3>Advanced AI Apps</h3>
             <p>Cutting-edge artificial intelligence.</p>
             </div>
-            <div className="card">
-            <h3>Innovative Blockchain</h3>
-            <p>Creative digital web3 platforms.</p>
-            </div>
+            
             <div className="card">
             <h3>Smart Mobile Solutions</h3>
             <p>Intelligent mobile applications.</p>
             </div>
+
+            <div className="card">
+            <h3>IOS & Android Applications</h3>
+            <p>Supported multiple platform</p>
+            </div>
+
             <div className="card">
             <h3>Website Design </h3>
             <p>Professional web development and designing.</p>
