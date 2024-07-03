@@ -21,6 +21,33 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.direct_up{
+    border-bottom: 0.1rem double #4fc3dc;
+    width: auto;
+    background: linear-gradient(to left, #4fc3dc,#e45fff, #ff2d75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+#whatsapp_svg{
+    font-size: .7rem;
+    cursor: pointer;
+}
+#mail_svg{
+    font-size: .7rem;
+    cursor: pointer;
+    margin-left: .25rem;
+}
+.direct_up svg{
+    width: 1.5rem;
+    margin-left: .25rem;
+}
+.direct_up span:nth-child(1){
+    font-size: 1rem;
+    font-weight:400;
+}
 .fourth_container{
     /* height: 30rem; */
     width: 95%;
@@ -43,10 +70,10 @@
     width: 45%;
     /* border: 0.1rem solid black; */
     /* backdrop-filter: blur(10px); */
-    /* background-color: #ffffff25; */
+    background-color: #171347;
     text-align: start;
     padding: 1rem;
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
     margin-bottom: 2rem;
     align-items: center;
 }
