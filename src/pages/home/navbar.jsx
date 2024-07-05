@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="nav_container" id="navbar" ref={navbarRef} style={{ top: '0', transition: 'top 0.3s' }}>
+    <nav className="nav_container" id="navbar" ref={navbarRef} style={{ top: '0', transition: 'top 0.3s'}}>
       <div className="logo"><img src={imgnav} alt="" />
       <p>enyfs</p>
       </div>

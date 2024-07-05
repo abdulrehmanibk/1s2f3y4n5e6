@@ -24,10 +24,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 0.15rem solid;
-    border-image: linear-gradient(to left, #5ffff2d8,#e45fffd4, #ff2d75d8)1;
+    /* border-bottom: 0.15rem solid;
+    border-image: linear-gradient(to left, #5ffff2d8,#e45fffd4, #ff2d75d8)1; */
+    box-shadow: .1rem .1rem 1rem .1rem #00000086;
     backdrop-filter: blur(10px);
     margin-top: 2rem; 
+    border-radius: 2.5rem;
 }
 .tleft img{
     width: 100%;

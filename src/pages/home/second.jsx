@@ -6,9 +6,9 @@ const Second = () => {
     <>
     <div className='sheading'>How we can help</div>
     <div className="scards">
-            <div className="card">
-            <h3>Custom Tech Solutions</h3>
-            <p>Tailored software and innovations.</p>
+    <div className="card">
+            <h3>Personal AI Assistant</h3>
+            <p>Your Smart Business Secretary.</p>
             </div>
             <div className="card">
             <h3>Advanced AI Apps</h3>
@@ -31,7 +31,7 @@ const Second = () => {
             </div>
             <div className="card">
             <h3>API Integration & Development</h3>
-            <p>Robust interface solutions.</p>
+            <p>Hassle-Free API Integrations.</p>
             </div>
             <div className="card">
             <h3>Web Scraping & Data Extraction</h3>

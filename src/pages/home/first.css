@@ -55,7 +55,7 @@ html{
     border: none;
     margin-top: 1.5rem;
     font-size: 1.5rem;
-    padding: .5rem;
+    padding: .5rem 1rem;
     outline: none;
     letter-spacing: 0.1rem;
     background: linear-gradient(to left, #5ffff270,#e45fff78, #e817367c) ;
@@ -143,6 +143,9 @@ html{
        }
     }
 @media (max-width: 768px) {
+    .fleft{
+    backdrop-filter: blur(10px);
+    }
     .fleft h2{
         font-size: 2.5rem;
     }
@@ -154,6 +157,24 @@ html{
     }
     .fleft button{
         font-size: 1rem;
+    }
+
+}
+@media (max-width: 343px) {
+    .fleft{
+    backdrop-filter: blur(10px);
+    }
+    .fleft h2{
+        font-size: 2.3rem;
+    }
+    .fleft p{
+        font-size: 1.3rem;
+    }
+    .fleft p span{
+        font-size: 1.8rem;
+    }
+    .fleft button{
+        font-size: .9rem;
     }
 
 }

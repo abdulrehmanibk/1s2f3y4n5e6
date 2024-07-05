@@ -12,12 +12,12 @@
     /* height: 5rem; */
     /* background: linear-gradient(to left, #46dccf,#e45fff, #ff2d75); */
     /* background:#46dccf; */
-    box-shadow: .1rem .1rem 1rem .1rem #00000044;
+    box-shadow: .1rem .1rem 1rem .1rem #00000086;
     backdrop-filter: blur(15px);
     z-index: 1;
     display: flex;
     align-items: center;
-    border-radius: 1rem;
+    border-bottom-right-radius: 3.8rem;
 }
 
 .nav_container ul{
