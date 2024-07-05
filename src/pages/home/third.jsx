@@ -29,13 +29,6 @@ const Third = () => {
             {/* <hr /> */}
             <p>The silent guardians of data integrity, with precision and prowess, we sculpt the digital landscapes.</p>
         </div>
-        {/* <div className="review" id='slide-3'>
-            <div className="rimg">
-            <img src={imgr} alt="" />
-            <p> Mike Rayan <br />Fixing Local AI(ML)</p>
-            </div>
-            <p>Fast and Efficient, Lorem ipsum dolor, adipisicing elit. Beatae, earum aspernatur sapiente libero rerum deleniti!</p>
-        </div> */}
     </div>
     </div>
     </div>
