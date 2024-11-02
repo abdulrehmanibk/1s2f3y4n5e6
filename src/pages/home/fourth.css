@@ -69,9 +69,9 @@
 } */
 .fourth_right{
     width: 45%;
-    /* border: 0.1rem solid black; */
+    border: 0.1rem dashed #171347;
     /* backdrop-filter: blur(10px); */
-    background-color: #171347;
+    /* background-color: #171347; */
     text-align: start;
     padding: 1rem;
     border-radius: 2rem;

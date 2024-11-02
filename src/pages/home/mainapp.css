@@ -15,15 +15,14 @@ html{
 }
 body{
     scroll-behavior: smooth;
-    background-color: #1B1752;
+    background-color: #fff;
+    /* background-color: #4fc3dc; */
     /* border: 0.5rem solid green; */
 }
 .container{
     width: 100%;
     flex-wrap: wrap;
     display: flex;
-
-
 }
 .bcontainer{
     position: fixed;

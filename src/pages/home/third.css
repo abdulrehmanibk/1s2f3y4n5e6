@@ -37,10 +37,10 @@
 .tright{
     width: 36rem;
     backdrop-filter: blur(10px);
-    background-color: #171347;
     border-radius: 4rem;
     overflow: hidden;
     text-align: center;
+    border: 0.1rem dotted #201b61;
 
 }
 .allReviews{
@@ -110,14 +110,14 @@
 .rimg p{
     font-size: 1rem;
     padding: .5rem;
-    color: white;
+    color: #201b61;
     letter-spacing: 1px;
     /* border: 0.1rem solid black; */
     margin-right: 1rem;
 }
 .rimg p::first-line{
     font-size: 2rem;
-    color: lightgray;
+    color: #201b61;
     letter-spacing: 2px;
     text-overflow:hidden;
 }
@@ -131,7 +131,7 @@ width: 100%;
     padding: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: white;
+    color: #201b61;
     letter-spacing: 1px;
     /* border: 0.1rem solid black; */
 
